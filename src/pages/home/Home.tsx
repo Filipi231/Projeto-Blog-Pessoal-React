@@ -1,7 +1,4 @@
 import './Home.css'
-import React, { useContext } from 'react';
-import { useNavigate, Link } from 'react-router-dom'
-import { UserContext } from '../../contexts/UserContext';
 import ListaPostagens from '../../components/postagens/listaPostagens/ListaPostagens';
 import ModalPostagem from '../../components/postagens/modalPostagem/ModalPostagem';
 
